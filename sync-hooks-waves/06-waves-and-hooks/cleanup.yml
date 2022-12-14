@@ -2,7 +2,6 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   namespace: example06
-  generateName: cleanup-after-sync-
   labels:
     codefresh.io/cert: cleanup-job  
 spec:
